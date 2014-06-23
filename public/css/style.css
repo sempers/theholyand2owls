@@ -1,3 +1,7 @@
+body
+{
+    font-family: 'Roboto Condensed', sans-serif !important;   
+}
 /* CSS Document */
 a[href^="tel:"] {
   color: inherit;
@@ -6,20 +10,41 @@ a[href^="tel:"] {
 
 .mini
 {
-    max-height: 210px;
-    max-width: 210px;
+    max-height: 220px;
+    max-width: 220px;
+}
+
+.olologo
+{
+    position: relative;
+    top: 14px;
+}
+
+.story
+{
+    color: #aaaaaa;
+    font-size: 1.1em;
 }
 
 .box
 {
-    margin: 5px;
     padding: 0;
-    text-align: center;
+    margin-right: 14px;
+    margin-bottom: 14px;
+    text-align: left;
     vertical-align: middle;
     width: 220px;
     height: 220px;
 }
 
+.bliank
+{
+    min-height: 40px;
+}
+.bliank2
+{
+    min-height: 26px;
+}
 
 .color-1 {
   color: #efedef;
@@ -125,7 +150,6 @@ header {
   -moz-box-shadow: none;
   box-shadow: none;
   text-transform: uppercase;
-  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   line-height: 22px;
   text-align: center;
@@ -183,6 +207,10 @@ header {
   box-shadow: none;
 }
 
+.container
+{
+
+}
 
 
 .nav-collapse_ .nav > li.sfHover > a .sf-sub-indicator,
@@ -246,12 +274,10 @@ header {
 
 .brand_ img 
 {
-    height: 80px;
-    width: auto;
+
 }
 
 h1 {
-  font-family: 'Open Sans', sans-serif;
   font-size: 40px;
   color: #ffffff;
   font-weight: bold;
@@ -267,7 +293,6 @@ h5,
 h6 {
   text-transform: none;
   color: #16A085;
-  font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   letter-spacing: -1px;
 }
@@ -688,7 +713,6 @@ p {
 }
 #contact-form input,
 #contact-form textarea {
-	font-family: 'Open Sans', sans-serif;
 	padding: 5px;
 	margin: 0;
 	font-size: 14px;
@@ -697,6 +721,7 @@ p {
 	background: none;
 	outline: none;
 	width: 400px;
+	height: 200px;
 	border: none;
 	-webkit-box-shadow: none;
 	-moz-box-shadow: none;
@@ -902,6 +927,12 @@ footer {
 }
 .list-social a.icon-5 {
   background-image: url(../img/soc-icon-5.png);
+}
+.list-social a.icon-6 {
+  background-image: url(../img/soc-icon-6.png);
+}
+.list-social a.icon-7 {
+  background-image: url(../img/soc-icon-7.png);
 }
 .list-social li {
   float: left;

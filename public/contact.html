@@ -1,56 +1,46 @@
-    <article class="span6 offset3">
-        <h3>Contact me please</h3>
+    <article class="span10">
+        <h3>Обо мне:</h3>
+        <div class="story">
+        <p>Орлова Анна, 1993 г.р., закончила МГУТУ им К.Г Разумовского по специальности "Графический дизайн" в 2014г.</p>
+        <p>Специализация: Иллюстрации, дизайн. Фриланс.</p>
+        <p>Для связи со мной воспользуйтесь формой ниже:</p>
+        </div>
+        
         <div class="inner-1">
             <form id="contact-form" name="form1" novalidate>
-                  <div class="success"> Your message has been sent succesfuly!<strong> We will be in touch soon.</strong> </div>
+                  <div class="success"> Ваше сообщение успешно отправлено!<strong> Я скоро свяжусь с Вами.</strong> </div>
                   <fieldset>
                 <div>
                     <label class="name">
-                    <input type="text" name="naame" ng-model="contact.name" placeholder="Your name" required>
+                    <input type="text" name="naame" ng-model="contact.name" placeholder="Ваше имя:" required>
                   <br>
-                    <span class="empty" ng-show="form1.naame.$error.required">*This field is required.</span></label>
+                    <span class="empty" ng-show="form1.naame.$error.required">*Поле обязательно для заполнения.</span></label>
                     </div>
                   <div>
                     <label class="phone">
-                    <input type="tel" name="tel" ng-model="contact.tel" placeholder="Telephone" required>
+                    <input type="tel" name="tel" ng-model="contact.tel" placeholder="Телефон:" required>
                     <br>
-                    <span class="empty" ng-show="form1.tel.$error.required">*This field is required.</span> </label>
+                    <span class="empty" ng-show="form1.tel.$error.required">*Поле обязательно для заполнения.</span> </label>
                     </div>
                 <div>
                     <label class="email">
-                    <input type="email" name="emaail" ng-model="contact.email" placeholder="Email" required>
+                    <input type="email" name="emaail" ng-model="contact.email" placeholder="Email:" required>
                     <br>
-                    <span class="error" ng-show="form1.emaail.$error.email">*This is not a valid email address.</span> 
-                    <span class="empty" ng-show="form1.emaail.$error.required">*This field is required.</span> </label>
+                    <span class="error" ng-show="form1.emaail.$error.email">Этот адрес электронной почты недействителен.</span> 
+                    <span class="empty" ng-show="form1.emaail.$error.required">*Поле обязательно для заполнения.</span> </label>
                     </div>
                 <div>
                     <label class="message">
-                    <textarea required ng-model="contact.msg" name="msg" placeholder="Your message">Message</textarea>
+                    <textarea required ng-model="contact.msg" name="msg" placeholder="Ваше сообщение:">Message</textarea>
                     <br>
-                    <span class="empty" ng-show="form1.msg.$error.required">*This field is required.</span> </label>
+                    <span class="empty" ng-show="form1.msg.$error.required">*Поле обязательно для заполнения.</span> </label>
                     </div>
                 <div class="buttons-wrapper">
-                    <a class="btn btn-1" data-type="reset">Clear</a> <a class="btn btn-1" data-type="submit" ng-click="sendMessage()">Send</a>
+                    <a class="btn btn-1" data-type="reset">Очистить</a> <a class="btn btn-1" data-type="submit" ng-click="sendMessage()">Отправить</a>
                     <span ng-show="messageSent">Your message has been sent. We'll read it eventually.</span>
                     </div>
               </fieldset>
             </form>
         </div>
     </article>
-    <!--<article class="span4">
-          <h3>Contact info</h3>
-          <div class="map">
-            <a href="http://dribbble.com/shots/624850-Presentaion-image-1" target="_blank"><img src="img/map.jpg" alt="Location on Map" /></a>
-          </div>
-          <address class="address-1">
-              <strong>Inbetwin Networks,<br>
-                  Paud Phata, Road,<br>
-                  Kothrud, Pune-38.</strong>
-              <div class="overflow"> <span>Mobile:</span>+91 12345 67890<br>
-                    <span>Telephone:</span>+91 12345 67890<br>
-                    <span>FAX:</span>+91 12345 67890 <br>
-                    <span>E-mail:</span> <a href="#" class="mail-1">you@domain.com</a><br>
-                    <span>Skype:</span> <a href="#" class="mail-1">@woohooo</a></div>
-          </address>
-    </article>-->
 
